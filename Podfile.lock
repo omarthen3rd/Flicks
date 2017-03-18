@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (4.0.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - Spring (1.0.3)
+  - SwiftyJSON (3.1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - SDWebImage (~> 3.8)
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
+  - SwiftyJSON
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift3
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 3a9227c6e9157e7b47f5ac1ee5abab2a56b50002
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SwiftyJSON: f0be2e604f83e8405a624e9f891898bf6ed4e019
+
+PODFILE CHECKSUM: eaf9e18943ddf691b94016f28c5546c7cd66d661
+
+COCOAPODS: 1.2.0.beta.1
